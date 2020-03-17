@@ -36,7 +36,7 @@ public class ThreePagesTest {
     public void   titlesShouldMatchTheSearch(){
         driver.get("https://jdi-testing.github.io/jdi-light/index.html");
         Assert.assertEquals(driver.getTitle(), "Home Page");
-        BasePage b = new BasePage(driver);
+        DifferentElementsPage b = new DifferentElementsPage(driver);
         b.signInToGetAccess()
                 .differentElementsLeftMenuDropButtonClick();
         Assert.assertEquals(driver.getTitle(), "Different Elements");

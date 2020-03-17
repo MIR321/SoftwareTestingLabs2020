@@ -9,7 +9,7 @@ import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 
-public class BasePage {
+public abstract class BasePage {
 
     @FindBy(how=How.ID, using="name")
     private WebElement dropLoginInputField;

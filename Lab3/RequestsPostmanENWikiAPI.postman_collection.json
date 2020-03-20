@@ -1,0 +1,676 @@
+{
+	"info": {
+		"_postman_id": "74377c9e-8eb4-4de4-9d46-cf39924724b8",
+		"name": "ЗапросыPostmanENWikiAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "CategoriesAssociatedWithAPage",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=categories&titles=Peter_the_Great_St._Petersburg_Polytechnic_University",
+					"protocol": "https",
+					"host": [
+						"en",
+						"wikipedia",
+						"org"
+					],
+					"path": [
+						"w",
+						"api.php"
+					],
+					"query": [
+						{
+							"key": "action",
+							"value": "query"
+						},
+						{
+							"key": "format",
+							"value": "json"
+						},
+						{
+							"key": "prop",
+							"value": "categories"
+						},
+						{
+							"key": "titles",
+							"value": "Peter_the_Great_St._Petersburg_Polytechnic_University"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "CategoriesAssociatedWithAPage",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=categories&titles=Peter_the_Great_St._Petersburg_Polytechnic_University",
+							"protocol": "https",
+							"host": [
+								"en",
+								"wikipedia",
+								"org"
+							],
+							"path": [
+								"w",
+								"api.php"
+							],
+							"query": [
+								{
+									"key": "action",
+									"value": "query"
+								},
+								{
+									"key": "format",
+									"value": "json"
+								},
+								{
+									"key": "prop",
+									"value": "categories"
+								},
+								{
+									"key": "titles",
+									"value": "Peter_the_Great_St._Petersburg_Polytechnic_University"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Fri, 20 Mar 2020 18:45:38 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Server",
+							"value": "mw1347.eqiad.wmnet"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.2.26-1+0~20191218.33+debian9~1.gbpb5a340+wmf1"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "P3P",
+							"value": "CP=\"See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P for more info.\""
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Content-Disposition",
+							"value": "inline; filename=api-result.json"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "private, must-revalidate, max-age=0"
+						},
+						{
+							"key": "Backend-Timing",
+							"value": "D=27138 t=1584729938492980"
+						},
+						{
+							"key": "X-ATS-Timestamp",
+							"value": "1584729938"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						},
+						{
+							"key": "X-Varnish",
+							"value": "376328471"
+						},
+						{
+							"key": "Age",
+							"value": "0"
+						},
+						{
+							"key": "X-Cache",
+							"value": "cp3064 miss, cp3062 pass"
+						},
+						{
+							"key": "X-Cache-Status",
+							"value": "pass"
+						},
+						{
+							"key": "Server-Timing",
+							"value": "cache;desc=\"pass\""
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=106384710; includeSubDomains; preload"
+						},
+						{
+							"key": "X-Client-IP",
+							"value": "196.244.191.166"
+						},
+						{
+							"key": "Accept-Ranges",
+							"value": "bytes"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"batchcomplete\": \"\",\n    \"query\": {\n        \"normalized\": [\n            {\n                \"from\": \"Peter_the_Great_St._Petersburg_Polytechnic_University\",\n                \"to\": \"Peter the Great St. Petersburg Polytechnic University\"\n            }\n        ],\n        \"pages\": {\n            \"6258161\": {\n                \"pageid\": 6258161,\n                \"ns\": 0,\n                \"title\": \"Peter the Great St. Petersburg Polytechnic University\",\n                \"categories\": [\n                    {\n                        \"ns\": 14,\n                        \"title\": \"Category:1899 establishments in the Russian Empire\"\n                    },\n                    {\n                        \"ns\": 14,\n                        \"title\": \"Category:All articles with dead external links\"\n                    },\n                    {\n                        \"ns\": 14,\n                        \"title\": \"Category:Articles containing Russian-language text\"\n                    },\n                    {\n                        \"ns\": 14,\n                        \"title\": \"Category:Articles with dead external links from July 2019\"\n                    },\n                    {\n                        \"ns\": 14,\n                        \"title\": \"Category:Coordinates on Wikidata\"\n                    },\n                    {\n                        \"ns\": 14,\n                        \"title\": \"Category:Educational institutions established in 1899\"\n                    },\n                    {\n                        \"ns\": 14,\n                        \"title\": \"Category:Engineering universities and colleges in Russia\"\n                    },\n                    {\n                        \"ns\": 14,\n                        \"title\": \"Category:Peter the Great St. Petersburg Polytechnic University\"\n                    },\n                    {\n                        \"ns\": 14,\n                        \"title\": \"Category:Technical universities and colleges in Russia\"\n                    }\n                ]\n            }\n        }\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "GetGeneralUserInfoAndUserRightsWithEmail",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://en.wikipedia.org/w/api.php?action=query&meta=userinfo&uiprop=rights|email&format=json",
+					"protocol": "https",
+					"host": [
+						"en",
+						"wikipedia",
+						"org"
+					],
+					"path": [
+						"w",
+						"api.php"
+					],
+					"query": [
+						{
+							"key": "action",
+							"value": "query"
+						},
+						{
+							"key": "meta",
+							"value": "userinfo"
+						},
+						{
+							"key": "uiprop",
+							"value": "rights|email"
+						},
+						{
+							"key": "format",
+							"value": "json"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "GetGeneralUserInfoAndUserRightsWIthEmail",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://en.wikipedia.org/w/api.php?action=query&meta=userinfo&uiprop=rights|email&format=json",
+							"protocol": "https",
+							"host": [
+								"en",
+								"wikipedia",
+								"org"
+							],
+							"path": [
+								"w",
+								"api.php"
+							],
+							"query": [
+								{
+									"key": "action",
+									"value": "query"
+								},
+								{
+									"key": "meta",
+									"value": "userinfo"
+								},
+								{
+									"key": "uiprop",
+									"value": "rights|email"
+								},
+								{
+									"key": "format",
+									"value": "json"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Fri, 20 Mar 2020 18:56:56 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Server",
+							"value": "mw1340.eqiad.wmnet"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.2.26-1+0~20191218.33+debian9~1.gbpb5a340+wmf1"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "P3P",
+							"value": "CP=\"See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P for more info.\""
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Content-Disposition",
+							"value": "inline; filename=api-result.json"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "private, must-revalidate, max-age=0"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "Backend-Timing",
+							"value": "D=30682 t=1584730616060051"
+						},
+						{
+							"key": "X-ATS-Timestamp",
+							"value": "1584730616"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						},
+						{
+							"key": "X-Varnish",
+							"value": "356361765"
+						},
+						{
+							"key": "Age",
+							"value": "0"
+						},
+						{
+							"key": "X-Cache",
+							"value": "cp1079 miss, cp1085 pass"
+						},
+						{
+							"key": "X-Cache-Status",
+							"value": "pass"
+						},
+						{
+							"key": "Server-Timing",
+							"value": "cache;desc=\"pass\""
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=106384710; includeSubDomains; preload"
+						},
+						{
+							"key": "X-Client-IP",
+							"value": "45.129.32.6"
+						},
+						{
+							"key": "Accept-Ranges",
+							"value": "bytes"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"batchcomplete\": \"\",\n    \"query\": {\n        \"userinfo\": {\n            \"id\": 0,\n            \"name\": \"45.129.32.6\",\n            \"anon\": \"\",\n            \"rights\": [\n                \"createaccount\",\n                \"read\",\n                \"edit\",\n                \"createtalk\",\n                \"writeapi\",\n                \"viewmywatchlist\",\n                \"editmywatchlist\",\n                \"viewmyprivateinfo\",\n                \"editmyprivateinfo\",\n                \"editmyoptions\",\n                \"abusefilter-log-detail\",\n                \"urlshortener-create-url\",\n                \"centralauth-merge\",\n                \"abusefilter-view\",\n                \"abusefilter-log\",\n                \"vipsscaler-test\"\n            ],\n            \"email\": \"\"\n        }\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "SearchForATitleOrTextInAWiki",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=SPbPU&utf8=&format=json&srlimit=2",
+					"protocol": "https",
+					"host": [
+						"en",
+						"wikipedia",
+						"org"
+					],
+					"path": [
+						"w",
+						"api.php"
+					],
+					"query": [
+						{
+							"key": "action",
+							"value": "query"
+						},
+						{
+							"key": "list",
+							"value": "search"
+						},
+						{
+							"key": "srsearch",
+							"value": "SPbPU"
+						},
+						{
+							"key": "utf8",
+							"value": ""
+						},
+						{
+							"key": "format",
+							"value": "json"
+						},
+						{
+							"key": "srlimit",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "SearchForATitleOrTextInAWiki",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=SPbPU&utf8=&format=json&srlimit=2",
+							"protocol": "https",
+							"host": [
+								"en",
+								"wikipedia",
+								"org"
+							],
+							"path": [
+								"w",
+								"api.php"
+							],
+							"query": [
+								{
+									"key": "action",
+									"value": "query"
+								},
+								{
+									"key": "list",
+									"value": "search"
+								},
+								{
+									"key": "srsearch",
+									"value": "SPbPU"
+								},
+								{
+									"key": "utf8",
+									"value": ""
+								},
+								{
+									"key": "format",
+									"value": "json"
+								},
+								{
+									"key": "srlimit",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Fri, 20 Mar 2020 19:04:57 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Server",
+							"value": "mw1356.eqiad.wmnet"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.2.26-1+0~20191218.33+debian9~1.gbpb5a340+wmf1"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "P3P",
+							"value": "CP=\"See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P for more info.\""
+						},
+						{
+							"key": "X-Search-ID",
+							"value": "bbi65493fagfokfenjo3f2y0s"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Content-Disposition",
+							"value": "inline; filename=api-result.json"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "private, must-revalidate, max-age=0"
+						},
+						{
+							"key": "Backend-Timing",
+							"value": "D=107696 t=1584731097570832"
+						},
+						{
+							"key": "X-ATS-Timestamp",
+							"value": "1584731097"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						},
+						{
+							"key": "X-Varnish",
+							"value": "395878358"
+						},
+						{
+							"key": "Age",
+							"value": "0"
+						},
+						{
+							"key": "X-Cache",
+							"value": "cp1077 miss, cp1085 pass"
+						},
+						{
+							"key": "X-Cache-Status",
+							"value": "pass"
+						},
+						{
+							"key": "Server-Timing",
+							"value": "cache;desc=\"pass\""
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=106384710; includeSubDomains; preload"
+						},
+						{
+							"key": "X-Client-IP",
+							"value": "45.129.32.6"
+						},
+						{
+							"key": "Accept-Ranges",
+							"value": "bytes"
+						},
+						{
+							"key": "Content-Length",
+							"value": "519"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"batchcomplete\": \"\",\n    \"continue\": {\n        \"sroffset\": 2,\n        \"continue\": \"-||\"\n    },\n    \"query\": {\n        \"searchinfo\": {\n            \"totalhits\": 14,\n            \"suggestion\": \"spânu\",\n            \"suggestionsnippet\": \"<em>spânu</em>\"\n        },\n        \"search\": [\n            {\n                \"ns\": 0,\n                \"title\": \"Peter the Great St. Petersburg Polytechnic University\",\n                \"pageid\": 6258161,\n                \"size\": 27504,\n                \"wordcount\": 2947,\n                \"snippet\": \"Polytechnic University, abbreviated as <span class=\\\"searchmatch\\\">SPbPU</span> (also, formerly &quot;Saint Petersburg State Technical University&quot;, abbreviated as <span class=\\\"searchmatch\\\">SPb</span>STU), is a major Russian technical\",\n                \"timestamp\": \"2019-12-30T19:26:26Z\"\n            },\n            {\n                \"ns\": 0,\n                \"title\": \"Kirill Prigoda\",\n                \"pageid\": 51267855,\n                \"size\": 5879,\n                \"wordcount\": 107,\n                \"snippet\": \"Volkova, was world champion in 200 m breaststroke. Prigoda is almuni at the <span class=\\\"searchmatch\\\">SPbPU</span> in the chair of &quot;Strategic Management&quot;. &quot;Kirill Prigoda&quot;. Rio 2016. Archived\",\n                \"timestamp\": \"2020-03-02T12:48:04Z\"\n            }\n        ]\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "ExamplePOST",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"mytestmail@mail.ru\",\r\n    \"password\": \"somepassword\"\r\n}"
+				},
+				"url": {
+					"raw": "https://reqres.in/api/register",
+					"protocol": "https",
+					"host": [
+						"reqres",
+						"in"
+					],
+					"path": [
+						"api",
+						"register"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "ExamplePOST",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"mytestmail@mail.ru\",\r\n    \"password\": \"somepassword\"\r\n}"
+						},
+						"url": {
+							"raw": "https://reqres.in/api/register",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"register"
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Fri, 20 Mar 2020 21:39:14 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "57"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"39-6jrJxn+7f+pQUhbPgNMst7tagpA\""
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						},
+						{
+							"key": "CF-Cache-Status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "Expect-CT",
+							"value": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "577295b00a317367-CPH"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"error\": \"Note: Only defined users succeed registration\"\n}"
+				}
+			]
+		}
+	],
+	"protocolProfileBehavior": {}
+}
